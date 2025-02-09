@@ -67,10 +67,29 @@
 
 // alert(`${firstname} is ${age} years old`)
 
-let str = 'Abhay';
+// let str = 'Abhay';
 
-if ((str[0] == 'a' || str[0] == 'A') && str.length>5){
-    console.log("golden string")
-}else{
-    console.log("it is not golden string")
-}
+// if ((str[0] == 'a' || str[0] == 'A') && str.length>5){
+//     console.log("golden string")
+// }else{
+//     console.log("it is not golden string")
+// }
+
+// let mesg = "  hello  ";
+// let newmesg = mesg.trim();
+// mix = newmesg.toUpperCase();
+
+// let str = "ilovecoding";
+
+// console.log(str.slice(1,5));
+
+// let mesg = "help!";
+// let a = mesg.trim().toUpperCase();
+// console.log(a);
+
+let clgname = "apnacollege";
+let slic = clgname.slice(4);
+
+let ans = slic.replace("l" , "t");
+
+console.log(ans)
