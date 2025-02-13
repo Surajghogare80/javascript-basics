@@ -87,9 +87,82 @@
 // let a = mesg.trim().toUpperCase();
 // console.log(a);
 
-let clgname = "apnacollege";
-let slic = clgname.slice(4);
+// let clgname = "apnacollege";
+// let slic = clgname.slice(4);
 
-let ans = slic.replace("l" , "t");
+// let ans = slic.replace("l" , "t");
 
-console.log(ans)
+// console.log(ans)
+
+// let names = ['suraj' , 'shradha' ,'om' ,'shvd']
+
+// names[3]='shiv'
+// names[10]='omii'
+
+
+// let start = ['january' , 'july' , 'march' , 'august'];
+
+// let end = start.shift();
+
+// let start = ['jan','july','march','august']
+
+//  start.splice(0,1,'july');
+
+//  start.splice(2,1,'march');
+//  start.splice(1,1,'june');
+
+
+//  let lang = ['c++','java','js','c#','python','sql']
+//  let lan = lang.reverse()
+//  let index = lan.indexOf('js')
+
+// const arr = [["X"," ","O"],[" ","X"," "],["O"," ","X"]]
+
+// let arr = [1,2,3,4,5]
+
+// arr.splice(3)
+
+// let str = "hello"
+// if(str.length == 0){
+//     console.log("str is emtpy")
+// }else{
+//     console.log("str is not empty")
+// }
+
+// let str = 'suRaj'
+
+// if (str[2]==str[2].toLowerCase){
+//     console.log('yes')
+// }else{console.log('no')}
+
+// for (let i=5 ; i<=50 ; i++){
+//     if(i%5 ==0){
+//         console.log(i)
+//     }else{
+//         console.log()
+//     }
+// }
+
+// let favmovie = "sambha"
+
+// let guess = prompt("guess the movie name")
+
+// while((guess != favmovie) && (guess != "quite")){
+   
+//     guess = prompt("wrong guess the movie name")
+// }
+
+// if(guess == favmovie){
+//     console.log("congrats!!")
+// }
+
+let i=1
+
+while(i<=5){
+    if(i==3){
+        break;
+    }
+    console.log(i)
+    i++
+}
+
