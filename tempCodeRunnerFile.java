@@ -1,19 +1,16 @@
-public class pattern {
-    public static void hollow_rectangle(int totrow , int totcol){
-        for  (int i=1 ; i<=totrow ; i++){
-            
-            for (int j=1 ; j<=totcol ; j++){
+import java.util.*;
+public class Main {
 
-                if(i==1 || i==totrow || j==1 || j==totcol){
-                    System.out.print("*");
-                }else{
-                    System.out.print(" ");
-                }
-            }
+    public static void update (int marks[]){
+
+        for (int i=0;i<marks.length;i++){
+            marks[i]=marks[i]+1;
         }
     }
-    public static void main (String Args[]){
-        hollow_rectangle(4 , 5);
+
+    public  static void main (String Args[]){
+        int marks[] = {98,99,96};
+        update(marks);
     }
     
 }

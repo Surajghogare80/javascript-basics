@@ -156,13 +156,62 @@
 //     console.log("congrats!!")
 // }
 
-let i=1
+// let i=1
 
-while(i<=5){
-    if(i==3){
-        break;
+// while(i<=5){
+//     if(i==3){
+//         break;
+//     }
+//     console.log(i)
+//     i++
+// }
+
+// let heroes = [['abhi','yash','mukund'],['yami','malinga','you']]
+
+// for (let i=0 ; i<heroes.length ; i++){
+//     console.log(i,heroes[i],heroes[i].length)
+//     for (let j=0 ; j<heroes[i] ; j++){
+//         console.log(`j=${j} ${heroes[i]}`)
+//     }
+// }
+
+// let arr = [['suraj',20],['shradha',20]]
+
+// for (let i=0 ;i<arr.length;i++){
+//     console.log(i,arr[i])
+//     for (let j=0;j<arr[i];j++){
+//         console.log(arr[i][j])
+//     }
+// }
+
+// let fruits = ['banana','apple','mango','chere']
+
+// for(fruit of fruits){
+//     console.log(fruit)
+// }
+let todo = []
+
+let req = prompt("enter your request")
+
+while(true){
+    if(req == "quit"){
+        console.log("quitting app")
+        break ;
     }
-    console.log(i)
-    i++
+    if(req == "list"){
+        for(let i=0; i<todo.length; i++) {
+            console.log(i, todo[i]);
+        }
+    }
+    else if(req ==  "add"){
+        let task = prompt("add your things")
+        todo.push(task) 
+        console.log("task added")
+    }
+    else if(req == 'delete'){
+        let idx = prompt("enter index to delete task")
+        todo.splice(idx, 1);
+        console.log("task deleted")
+    }
+    req = prompt("enter your request") // Add this line to keep asking for input after each loop
 }
-
